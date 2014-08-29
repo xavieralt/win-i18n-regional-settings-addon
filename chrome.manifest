@@ -1,0 +1,6 @@
+# register js xpcom component from `main.js`
+component {0b358c80-375d-4bea-87e7-95bbf6cb4e98} main.js
+contract @odoo.com/win-i18n;1 {0b358c80-375d-4bea-87e7-95bbf6cb4e98}
+
+# register xpcom component under `navigator` object
+category JavaScript-navigator-property win_i18n @odoo.com/win-i18n;1
